@@ -2,6 +2,7 @@
 import { Card } from '@/app/components/ui/card'
 import FolioCarousel from '@/app/components/folioCarousel'
 import { VideoCarousel } from '@/app/components/ui/videoCarousel'
+import { SocialMedia } from '@/app/components/ui/socialMedia'
 
 export default function My() {
   const items = [
@@ -22,14 +23,14 @@ export default function My() {
           Erfaren skådespelare med stark kameranärvaro, flerspråkig bakgrund,
           och stor vana av improvisation, uttryck och sociala medier.
         </p>
+        <div className="flex justify-center">
+          <SocialMedia />
+        </div>
       </section>
       <FolioCarousel />
       <section>
         <h2 className="text-xl font-semibold mb-3">Showreel</h2>
-
-        <Card className="overflow-hidden">
-          <VideoCarousel items={items} />
-        </Card>
+        <VideoCarousel items={items} />
       </section>
       <section className="space-y-8">
         <h2 className="text-xl font-semibold">CV & Erfarenhet</h2>
