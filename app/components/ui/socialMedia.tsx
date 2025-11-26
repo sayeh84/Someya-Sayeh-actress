@@ -31,7 +31,7 @@ export function SocialMedia({ className }: SocialMediaProps) {
   ]
 
   return (
-    <div className={`flex space-x-4 ${className}`}>
+    <div className={`flex justify-center space-x-4 ${className}`}>
       {socials.map((social) => (
         <a
           key={social.name}

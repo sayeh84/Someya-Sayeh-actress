@@ -29,6 +29,8 @@ export default function SendEmailPage() {
 
   return (
     <div className="p-5">
+      <h1 className="text-2xl font-bold mb-4 text-center">Kontakt mig</h1>
+
       <h1 className="text-2xl font-bold mb-4">Skicka e-mail</h1>
 
       <input

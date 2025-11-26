@@ -23,9 +23,9 @@ export default function My() {
           Erfaren skådespelare med stark kameranärvaro, flerspråkig bakgrund,
           och stor vana av improvisation, uttryck och sociala medier.
         </p>
-        <div className="flex justify-center">
+        <article className="flex justify-center">
           <SocialMedia />
-        </div>
+        </article>
       </section>
       <FolioCarousel />
       <section>
