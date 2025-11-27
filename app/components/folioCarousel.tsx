@@ -3,7 +3,7 @@
 import { Carousel } from '@/app/components/ui/carousel'
 
 export default function FolioCarousel() {
-  const images = Array.from({ length: 13 }, (_, i) => `/bild${i + 1}.jpg`)
+  const images = Array.from({ length: 13 }, (_, i) => `/bild${i + 1}.JPG`)
 
   return (
     <div className="p-4">
