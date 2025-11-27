@@ -1,0 +1,14 @@
+'use client'
+
+import { Carousel } from '@/app/components/ui/carousel'
+
+export default function FolioCarousel() {
+  const images = Array.from({ length: 13 }, (_, i) => `/bild${i + 1}.JPG`)
+
+  return (
+    <div className="p-4">
+      <h2 className="text-4xl font-bold mb-4 text-center">Mina bilder</h2>
+      <Carousel images={images} />
+    </div>
+  )
+}
