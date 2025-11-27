@@ -19,7 +19,8 @@ export default function My() {
         <p className="text-muted-foreground text-lg">Skådespelare • Statist</p>
         <p className="max-w-2xl mx-auto text-sm text-muted-foreground">
           Erfaren skådespelare med stark kameranärvaro, flerspråkig bakgrund,
-          och stor vana av improvisation, uttryck och sociala medier.
+          och stor vana av improvisation, uttryck och sociala medier. 📍
+          Stockholm | 📞 0733514861 |
         </p>
         <article className="flex justify-center">
           <SocialMedia />
@@ -43,15 +44,6 @@ export default function My() {
             </li>
           </ul>
         </Card>
-
-        <Card>
-          <h3 className="font-semibold text-lg">Utbildning</h3>
-          <p className="text-sm text-muted-foreground">
-            Teaterutbildningar & workshops – fokus på sceniskt uttryck,
-            improvisation och karaktärsarbete. Arbetat med både moderna och
-            klassiska texter.
-          </p>
-        </Card>
         <Card>
           <h3 className="font-semibold text-lg">Färdigheter</h3>
           <ul className="text-sm space-y-2">
@@ -60,6 +52,14 @@ export default function My() {
             <li>🚗 B-körkort</li>
             <li>💡 Van vid kamera, ljus och improvisation</li>
           </ul>
+        </Card>
+        <Card>
+          <h3 className="font-semibold text-lg">Utbildning</h3>
+          <p className="text-sm text-muted-foreground">
+            Teaterutbildningar & workshops – fokus på sceniskt uttryck,
+            improvisation och karaktärsarbete. Arbetat med både moderna och
+            klassiska texter.
+          </p>
         </Card>
       </section>
     </main>
