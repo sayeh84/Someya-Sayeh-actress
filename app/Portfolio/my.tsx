@@ -1,6 +1,6 @@
 'use client'
 import { Card } from '@/app/components/ui/card'
-import FolioCarousel from '@/app/components/folioCarousel'
+import FolioCarousel from '@/app/components/ui/folioCarousel'
 import { VideoCarousel } from '@/app/components/ui/videoCarousel'
 import { SocialMedia } from '@/app/components/ui/socialMedia'
 
@@ -15,7 +15,7 @@ export default function My() {
   return (
     <main className="max-w-4xl mx-auto py-12 px-4 space-y-16">
       <section className="text-center space-y-3">
-        <h1 className="text-4xl font-bold tracking-wide">Someya Sayeh</h1>
+        <h1 className=" font-bold tracking-wide text-2xl">Someya Sayeh</h1>
         <p className="text-muted-foreground text-lg">Skådespelare • Statist</p>
         <p className="max-w-2xl mx-auto text-sm text-muted-foreground">
           Erfaren skådespelare med stark kameranärvaro, flerspråkig bakgrund,
@@ -27,11 +27,11 @@ export default function My() {
       </section>
       <FolioCarousel />
       <section>
-        <h2 className="text-xl font-semibold mb-3">Showreel</h2>
+        <h2 className="text-4xl font-semibold mb-3 text-center">Showreel</h2>
         <VideoCarousel items={items} />
       </section>
       <section className="space-y-8">
-        <h2 className="text-xl font-semibold">CV & Erfarenhet</h2>
+        <h2 className="text-4xl font-semibold text-center">CV & Erfarenhet</h2>
         <Card>
           <h3 className="font-semibold text-lg">Erfarenhet</h3>
           <ul className="text-sm space-y-2">
