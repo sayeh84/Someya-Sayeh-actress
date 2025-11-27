@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 
 interface CarouselProps {
-  items: string[] // både bilder och videor
+  items: string[]
 }
 
 export function VideoCarousel({ items }: CarouselProps) {
@@ -33,10 +33,9 @@ export function VideoCarousel({ items }: CarouselProps) {
     <div className="relative w-full max-w-lg mx-auto">
       <div className="overflow-hidden rounded-lg">
         <div className="relative w-full h-[600px] bg-black">
-          {/* 🔥 Video */}
           {isVideo && (
             <video
-              key={current} // ← här fixar vi reload varje gång
+              key={current}
               controls
               className="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
             >

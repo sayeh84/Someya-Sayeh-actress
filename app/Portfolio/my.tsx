@@ -16,9 +16,7 @@ export default function My() {
     <main className="max-w-4xl mx-auto py-12 px-4 space-y-16">
       <section className="text-center space-y-3">
         <h1 className="text-4xl font-bold tracking-wide">Someya Sayeh</h1>
-        <p className="text-muted-foreground text-lg">
-          Skådespelare • Statist • Kreatör
-        </p>
+        <p className="text-muted-foreground text-lg">Skådespelare • Statist</p>
         <p className="max-w-2xl mx-auto text-sm text-muted-foreground">
           Erfaren skådespelare med stark kameranärvaro, flerspråkig bakgrund,
           och stor vana av improvisation, uttryck och sociala medier.
