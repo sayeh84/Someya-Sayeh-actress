@@ -25,6 +25,7 @@ export default function My() {
           <SocialMedia />
         </article>
       </section>
+
       <FolioCarousel />
       <section>
         <h2 className="text-4xl font-semibold mb-3 text-center">Showreel</h2>
